@@ -16,6 +16,8 @@
 
     int pontos_Turisticos;
 
+    // cadastro primeira carta
+
     printf("Carta 1");
 
     printf("\n"); 
@@ -41,7 +43,6 @@
     printf("Diga-me quantos pontos turisticois tem a cidade selecionada/: \n");
     scanf("%d", &pontos_Turisticos);
 
-    // __________________________________________________________________________
     printf("\n"); //Para pular espaço
     
     printf("Estado: %s\n", &A);
@@ -58,8 +59,7 @@
 
     printf("Numero de Pontos Turisticos: %d\n", pontos_Turisticos);
 
-
-    //______________________________________________________
+     //cadastro segunda carta
     
     printf("\n"); //Para pular espaço
 
@@ -95,7 +95,6 @@
     printf("\n");//Para pular espaço
 
     printf("Carta 2");
-    // __________________________________________________________________________
 
     printf("\n"); //Para pular espaço
 
@@ -119,10 +118,4 @@
 
     printf("Sua carta esta pronta!\n");
     
-}
-
-
-
-
-
 }

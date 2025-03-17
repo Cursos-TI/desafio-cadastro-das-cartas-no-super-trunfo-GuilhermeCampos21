@@ -63,7 +63,8 @@
     printf("PIB: %d\n", PIB);
 
     printf("Numero de Pontos Turisticos: %d\n", pontos_Turisticos);
-
+//________________________________________ 
+    //Divisao
     float x = Populaçao;
 
     float p = PIB;
@@ -139,7 +140,9 @@
     printf("PIB: %d\n", PIB);
 
     printf("Numero de Pontos Turisticos: %d\n", pontos_Turisticos);
-
+//________________________________________ 
+        
+    //Divisao
     float a = Populaçao;
 
     float c = PIB;

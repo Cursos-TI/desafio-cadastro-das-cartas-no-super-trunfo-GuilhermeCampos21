@@ -16,6 +16,8 @@
 
     int pontos_Turisticos;
 
+
+
     // cadastro primeira carta
 
     printf("Carta 1");
@@ -43,6 +45,9 @@
     printf("Diga-me quantos pontos turisticois tem a cidade selecionada/: \n");
     scanf("%d", &pontos_Turisticos);
 
+
+    // __________________________________________________________________________
+
     printf("\n"); //Para pular espaço
     
     printf("Estado: %s\n", &A);
@@ -59,6 +64,25 @@
 
     printf("Numero de Pontos Turisticos: %d\n", pontos_Turisticos);
 
+    float x = Populaçao;
+
+    float p = PIB;
+
+    float y = Area_em_km;
+
+    float densidade_populacional1= (float) x / y;
+    
+    float pib1= (float) x / p;
+
+    scanf("%.3f\n", &densidade_populacional1);
+
+    scanf("%.2f\n", &pib1);
+
+    printf("Á densidade populacional é: %.3f KM²\n", densidade_populacional1);
+
+    printf("O PIB per Capita é: %.2f\n", pib1);
+   
+    
      //cadastro segunda carta
     
     printf("\n"); //Para pular espaço
@@ -92,6 +116,8 @@
     printf("Diga-me quantos pontos turisticois tem a cidade selecionada/: \n");
     scanf("%d", &pontos_Turisticos);
 
+//___________________________________________________________________________
+
     printf("\n");//Para pular espaço
 
     printf("Carta 2");
@@ -114,8 +140,29 @@
 
     printf("Numero de Pontos Turisticos: %d\n", pontos_Turisticos);
 
+    float a = Populaçao;
+
+    float c = PIB;
+    
+    float b = Area_em_km;
+
+    float densidade_populacional2 = (float) a / b;
+
+    float pib2= (float) c / x;
+    
+    scanf("%.3f\n", &densidade_populacional2);
+
+    printf("Á densidade populacional é: %.3f KM² \n", densidade_populacional2);
+    
+    scanf("%.2f\n", &pib2);
+
+    printf("O PIB per Capita é: %.2f\n", pib2);
+
+
     printf("\n"); //Para pular espaço
 
     printf("Sua carta esta pronta!\n");
     
+
+
 }
